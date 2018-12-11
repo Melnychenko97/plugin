@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box; }
+  * body {
+    margin: 0;
+    width: 100%; }
+    * body input[type=text] {
+      display: block;
+      margin-left: 40px;
+      margin-top: 20px; }
+    * body textarea {
+      display: block;
+      margin-left: 40px;
+      margin-top: 20px; }
+    * body .textarea-wrapper {
+      position: relative; }
+    * body .active-wrapper-left {
+      transform: translateX(-18px); }
+    * body .left-side-button {
+      padding-left: 20px; }
+    * body .right-side-button {
+      padding-right: 20px; }
+    * body .left-side-button-textarea {
+      padding-left: 35px; }
+    * body .right-side-button-textarea {
+      padding-right: 35px; }
+    * body .clear {
+      width: 18px;
+      height: 18px;
+      background: none;
+      border: none;
+      font-size: 16px;
+      outline: none;
+      display: none; }
+      * body .clear:hover {
+        color: cadetblue; }
+    * body .left {
+      transform: translateX(20px); }
+    * body .right {
+      transform: translateX(-20px); }
+    * body .active-button {
+      display: inline-block; }
+
+/*# sourceMappingURL=main.css.map */
